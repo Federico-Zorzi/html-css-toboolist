@@ -1,0 +1,8 @@
+/* reset */
+
+/* da segnare sempre all'inizio del CSS */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
