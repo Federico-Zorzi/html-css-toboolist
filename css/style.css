@@ -13,6 +13,7 @@ body{
 
 h2{
     font-weight: bold;
+    font-size: 1.3rem;
 }
 
 /* # UTILS */
@@ -89,24 +90,29 @@ h2{
 
   .list-item{
     list-style-type: none;
+    margin: 15px 0px;
   }
 
   .task-done{
+    display: inline-block;
     width: 20px;
     height: 20px;
-    min-height: 50px;
+    line-height: 20px;
     text-align: center;
     vertical-align: middle;
     color: green;
     border: 1px solid currentColor;
     border-radius: 50%;
-  }
 
-  .list-item{
-    margin: 15px 0px;
   }
   
-  .task-not-done{
+  .task-not-done{    
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
     color: red;
     border: 1px solid currentColor;    
     border-radius: 50%;
@@ -115,7 +121,7 @@ h2{
   .editorial-label{
     padding: 5px 10px;
     background-color: #4aaee9;
-    border-radius: 30%;
+    border-radius: 20%;
     color: white;
     font-size: .7rem;
   }
@@ -123,7 +129,7 @@ h2{
   .goals-label{
     padding: 5px 10px;
     background-color: #9b71df;
-    border-radius: 30%;
+    border-radius: 20%;
     color: white;
     font-size: .7rem;
   }
@@ -131,7 +137,7 @@ h2{
   .recruiting-label{
     padding: 5px 10px;
     background-color: #67c0a4;
-    border-radius: 30%;
+    border-radius: 20%;
     color: white;
     font-size: .7rem;
   }
@@ -140,7 +146,7 @@ h2{
   .mobile-label{
     padding: 5px 10px;
     background-color: #f19e35;
-    border-radius: 30%;
+    border-radius: 20%;
     color: white;
     font-size: .7rem;
   }
@@ -148,7 +154,7 @@ h2{
   .website-label{
     padding: 5px 10px;
     background-color: #d8669b;
-    border-radius: 30%;
+    border-radius: 20%;
     color: white;
     font-size: .7rem;
   }
@@ -156,7 +162,7 @@ h2{
   .sales-label{
     padding: 5px 10px;
     background-color: #b0c82c;
-    border-radius: 30%;
+    border-radius: 20%;
     color: white;
     font-size: .7rem;
   }
