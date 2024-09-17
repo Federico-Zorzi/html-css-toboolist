@@ -7,21 +7,31 @@
     padding: 0;
 }
 
+body{
+    background-color: blueviolet;
+  }
+
 /* # UTILS */
 
-.container {
+.container-header {
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 25px;
     width: 1000px;
     max-width: 100%;
+  }
+
+.container {
+    margin: 50px 100px;
+    padding: 10px 10px;
+    max-width: 100%;
+    background-color: white;
   }
 
   /* header */
 
   .upper-header{
     line-height: 100px;    
-    margin: auto 25px;
-
+    background-color: white;
   }
 
   .page-logo{
@@ -38,3 +48,5 @@
   }
 
   /* main */
+  
+ 
