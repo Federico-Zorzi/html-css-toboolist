@@ -49,8 +49,26 @@ body{
 
   /* main */
   
+  .button-modify-task{
+    padding: 5px 10px;
+    border: 1px solid #4aaee9;
+    border-radius: 8%;
+    background-color: #4aaee9;
+    font-size: 0.8rem;
+    color: white;
+  }
+
+  .button-modify-task:hover{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 8%;
+    color: gray;
+  }
 
   .list-item{
     list-style-type: none;
   }
  
+  .task-done{
+    bo
+  }
