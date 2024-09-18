@@ -8,7 +8,8 @@
 }
 
 body{
-    background-color: #f7f8fa;
+    background-color: #f7f8fa;    
+    font-family: Arial, Helvetica, sans-serif;
   }
 
 h2{
@@ -18,28 +19,11 @@ h2{
 
 /* # UTILS */
 
-.container-header {
-    margin: 0;
-    padding: 0 25px;
-    max-width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-.buttons-container {
-    margin: 50px 250px 0px 250px;
-    padding: 10px 50px;
-    max-width: 100%;
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    border-bottom: 1px solid lightgrey;
-  }
-
 .container {
-    margin: 0px 250px;
-    padding: 10px 50px;
+    margin: 40px 250px;
+    padding: 10px 0px;
     max-width: 100%;
     background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
   /* header */
@@ -47,14 +31,17 @@ h2{
   .upper-header{
     line-height: 80px;    
     background-color: white;
+    margin: 0;
+    padding: 0 25px;
+    max-width: 100%;
   }
 
-  .page-logo{
+  .page-header-logo{
     height: 60px;    
     vertical-align: middle;
   }
 
-  .page-title{
+  .page-header-title{
     display: inline;
     vertical-align: middle;
     font-weight: bold;
@@ -63,11 +50,19 @@ h2{
 
   /* main */
   
-  .buttons{    
+  .card{
+    
+    padding-left: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+  }
+
+  .card-buttons{    
     margin-top: 10px;
   }
 
-  .button-modify-task{
+  .btn{
+    display: inline-block;
     padding: 5px 10px;
     border: 1px solid #4aaee9;
     border-radius: 8%;
@@ -76,14 +71,15 @@ h2{
     color: white;
   }
 
-  .button-modify-task:hover{
+  .btn:hover{
     background-color: white;
     border: 1px solid gray;
     border-radius: 8%;
     color: gray;
   }
 
-  .list{
+  .list{    
+    padding-left: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -93,76 +89,55 @@ h2{
     margin: 15px 0px;
   }
 
-  .task-done{
+  .task{
     display: inline-block;
     width: 20px;
     height: 20px;
     line-height: 20px;
     text-align: center;
-    vertical-align: middle;
-    color: green;
+    vertical-align: middle;    
     border: 1px solid currentColor;
     border-radius: 50%;
+  }
+
+  .task.task-done{
+    color: green;
 
   }
   
-  .task-not-done{    
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-    vertical-align: middle;
+  .task.task-not-done{    
     color: red;
-    border: 1px solid currentColor;    
-    border-radius: 50%;
   }
 
-  .editorial-label{
+  .label{
     padding: 5px 10px;
+    border-radius: 20%;
+    color: white;
+    font-size: .7rem;
+  }
+
+  .label.editorial{
     background-color: #4aaee9;
-    border-radius: 20%;
-    color: white;
-    font-size: .7rem;
+
   }
 
-  .goals-label{
-    padding: 5px 10px;
+  .label.goals{
     background-color: #9b71df;
-    border-radius: 20%;
-    color: white;
-    font-size: .7rem;
   }
 
-  .recruiting-label{
-    padding: 5px 10px;
+  .label.recruiting{
     background-color: #67c0a4;
-    border-radius: 20%;
-    color: white;
-    font-size: .7rem;
   }
 
   
-  .mobile-label{
-    padding: 5px 10px;
+  .label.mobile{
     background-color: #f19e35;
-    border-radius: 20%;
-    color: white;
-    font-size: .7rem;
   }
 
-  .website-label{
-    padding: 5px 10px;
+  .label.website{
     background-color: #d8669b;
-    border-radius: 20%;
-    color: white;
-    font-size: .7rem;
   }
 
-  .sales-label{
-    padding: 5px 10px;
+  .label.sales{
     background-color: #b0c82c;
-    border-radius: 20%;
-    color: white;
-    font-size: .7rem;
   }
